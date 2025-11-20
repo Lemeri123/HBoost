@@ -1,0 +1,13 @@
+{
+  "name": "@hboost/server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "clean": "rimraf dist",
+    "dev": "tsc --watch"
+  }
+}
